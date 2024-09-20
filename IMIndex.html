@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intermediate Html Parctice</title>
+    <style>
+        table, th, td {
+  border: 1px solid black;
+  padding: 5px;
+  border-collapse: collapse;
+}
+th,td{
+    background-color:cornflowerblue;
+}
+    </style>
+</head>
+<body>
+    <header>
+    <h2>Intermediate HTML</h2>
+    <ul>
+       <li> <a href="#lists">Nested lists</a></li>
+        <a href="#tables">Tables</a>
+        <a href="#forms">Forms</a>
+        <a href="#Tarea">Text area</a>
+        <a href="#radio">Radio</a>
+        <a href="#checkbox">checkbox</a>
+        <a href="#dropdown">dropdown</a>
+        <a href="#media">Embedding media</a>
+        <a href="#special">special characters</a>
+
+    </ul>
+</header>
+    <h2 id="lists">nested lists</h2>
+    <ul>
+        <li>Movies</li>
+        <ol>
+            <li>Intern</li>
+            <ul>
+                <li>best movie </li>
+            </ul>
+            <li>Naruto</li>
+        </ol>
+        <li>Dumb shit </li>
+    </ul>
+    <h2 id="tables"> Table</h2>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Number</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>KeepMoving</td>
+            <td>23</td>
+            <td>1234567899</td>
+            <td>KeepMoving@gmail.com</td>
+        </tr>
+        <tr>
+            <td>KeepMoving</td>
+            <td>23</td>
+            <td>1234567899</td>
+            <td>KeepMoving@gmail.com</td>
+        </tr>
+        <tr>
+            <td>KeepMoving</td>
+            <td>23</td>
+            <td>1234567899</td>
+            <td>KeepMoving@gmail.com</td>
+        </tr>
+    </table>
+    <aside>
+    <h2 id="forms">Submission Form</h2>
+    <form action target="_blank">
+        <label>First name:</label>
+        <input type="text" value="First name"><br>
+        <label>Email:</label>
+        <input type="email" required><br>
+        <label>Password:</label>
+        <input type="Password" required><br>
+        <h2 id="radio">Radio</h2>
+        <label>Gender:</label>
+        
+            <input type="radio" name= "gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name= "gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" name= "gender" value="Other">
+            <label for="Other">Other</label>
+            <br>
+        <label id="checkbox">Select one hobbie</label>
+        <input type="checkbox" >
+        <label>Reading</label>
+        <input type="checkbox" >
+        <label>Traveling</label>
+        <input type="checkbox" >
+        <label>Cooking</label>
+        <br>
+        <h2 id="dropdown">Drop-Down</h2>
+        <label>Select a countries</label>
+        <select name="countries">
+            <option>India</option>
+            <option>USA</option>
+            <option>China</option>
+            <option>Germany</option>
+        </select>
+        <input type="Submit" value="Submit"><br>
+        <h2 id="Tarea">Textarea</h2>
+        <textarea>
+        
+    </textarea>
+    </form>
+</aside>
+<br>
+<h2 id="media">Media</h2>
+<iframe width="50%" height="25%" src="https://www.youtube.com/embed/jPXWDy0m5SA?start=2259" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+<audio controls>
+    <source src="https://elements.envato.com/sunny-hip-hop-CGHHLR7" type="audio/ogg"   >
+</audio>
+
+<br>
+<iframe
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345092435!2d144.95592331568005!3d-37.817209742414455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577fe37ed25b262!2sFederation%20Square!5e0!3m2!1sen!2sus!4v1614952684901!5m2!1sen!2sus"
+  width="600"
+  height="450"
+  style="border:0;"
+  allowfullscreen=""
+  loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade"
+></iframe>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer id="special">Practiced by sana vikas
+    <p>Diplaying footer symbols &copy;&trade;&amp;</p>
+</footer>
+</body>
+</html>
